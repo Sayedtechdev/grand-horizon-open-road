@@ -1,0 +1,6 @@
+{
+  "name": "Sayed Grand Car",
+  "description": "Atmospheric open-world driving simulator across Turkey and Bangladesh featuring dynamic weather, day-night cycle, realistic vehicle physics, and unlockable futuristic flying car mode.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
