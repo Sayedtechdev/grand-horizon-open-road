@@ -1,22 +1,34 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
-</div>
+# Grand Horizon Open Road
 
-# Run and deploy your AI Studio app
+## Android Application
 
-This contains everything you need to run your app locally.
-
-View your app in AI Studio: https://ai.studio/apps/afdf024f-755b-4086-a584-21bcceca4d04
+Grand Horizon Open Road is an Android application developed using Android Studio. This repository contains the source code and project configuration required to build and run the application locally.
 
 ## Run Locally
 
-**Prerequisites:**  [Android Studio](https://developer.android.com/studio)
+**Prerequisites:** [Android Studio](https://developer.android.com/studio)
 
+### Setup Instructions
 
-1. Open Android Studio
-2. Select **Open** and choose the directory containing this project
-3. Allow Android Studio to fix any incompatibilities as it imports the project.
-4. Create a file named `.env` in the project directory and set `GEMINI_API_KEY` in that file to your Gemini API key (see `.env.example` for an example)
-5. Remove this line from the app's `build.gradle.kts` file: `signingConfig = signingConfigs.getByName("debugConfig")`
-6. Run the app on an emulator or physical device
-7. If you have already published your app in AI Studio, please [request upload key reset](https://support.google.com/googleplay/android-developer/answer/9842756#zippy=%2Crequest-an-upload-key-reset) in Google Play Console.
+1. Open Android Studio.
+2. Select **Open** and choose the directory containing this project.
+3. Allow Android Studio to complete the Gradle synchronization and resolve any required dependencies.
+4. Create a `.env` file in the project directory and configure the required `GEMINI_API_KEY` if the application uses Gemini API services.
+5. Check the app's `build.gradle.kts` configuration and ensure the signing configuration is appropriate for your local build.
+6. Run the application on an Android emulator or a physical Android device.
+
+## Project Structure
+
+- `app/` – Contains the Android application source code and resources.
+- `gradle/` – Contains Gradle wrapper configuration.
+- `build.gradle.kts` – Root-level build configuration.
+- `settings.gradle.kts` – Project settings and module configuration.
+- `gradle.properties` – Gradle properties.
+
+## Development
+
+The project can be opened, modified, built, and tested using Android Studio.
+
+## License
+
+Add the appropriate license information if applicable.
